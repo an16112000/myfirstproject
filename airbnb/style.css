@@ -1,0 +1,341 @@
+body {
+  font-size: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body .head1 {
+  background-color: #222222;
+  width: 100%;
+  padding: 20px 40px;
+  text-align: center;
+  line-height: 18px;
+}
+
+body .head1 h1 {
+  color: #a3a3a3;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 500px;
+  text-decoration: underline;
+}
+
+body .container {
+  background-image: url("https://a0.muscache.com/im/pictures/b65bef33-07be-4c55-b613-bb990193e8f6.jpg?im_w=720");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 90vh;
+  background-position: 90% 90%;
+  display: inline-block;
+  padding-bottom: 180px;
+}
+
+body .container .head {
+  display: flex;
+}
+
+body .container .head .left {
+  text-align: center;
+  padding: 10px 40px;
+}
+
+body .container .head .left h2 {
+  color: black;
+  text-decoration: underline;
+  font-size: 15px;
+}
+
+body .container .head .mid {
+  display: flex;
+  margin: auto;
+  text-align: center;
+}
+
+body .container .head .mid h1 {
+  text-decoration: underline;
+  font-size: 15px;
+}
+
+body .container .head .mid .left1 {
+  margin: auto;
+  padding: 10px 40px;
+}
+
+body .container .head .mid .right1 {
+  margin: auto;
+  padding: 10px 40px;
+}
+
+body .container .head .mid .mid1 {
+  padding: 10px 40px;
+}
+
+body .container .head .right {
+  display: flex;
+  text-align: center;
+  margin-right: 40px;
+  padding: 10px 40px;
+}
+
+body .container .head .right .left2 {
+  cursor: pointer;
+}
+
+body .container .head .right .left2 h3 {
+  font-size: 15px;
+  font-family: inherit;
+  font-weight: 600px;
+  line-height: 18px;
+}
+
+body .container .head .right .mid2 {
+  text-align: center;
+}
+
+body .container .index {
+  display: flex;
+}
+
+body .container .index .form {
+  margin: auto;
+  display: flex;
+  background-color: #fff;
+  border-radius: 32px;
+  padding: 0px 15px;
+  padding-bottom: 20px;
+}
+
+body .container .index .form .input1 {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+body .container .index .form .input1 p {
+  margin-bottom: -10px;
+}
+
+body .container .index .form .input2 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  cursor: pointer;
+}
+
+body .container .index .form .input2 p {
+  margin-bottom: -10px;
+}
+
+body .container .index .form .input3 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  cursor: pointer;
+}
+
+body .container .index .form .input3 p {
+  margin-bottom: -10px;
+}
+
+body .container .index .form .input4 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  cursor: pointer;
+}
+
+body .container .index .form .input4 p {
+  margin-bottom: -10px;
+}
+
+body .container .text {
+  margin-left: 40px;
+  margin-top: 80px;
+  width: 400px;
+  letter-spacing: -2px;
+  line-height: 52px;
+}
+
+body .container .text h4 {
+  font-size: 60px;
+}
+
+body .container .text h5 {
+  margin-top: -70px;
+  font-size: 20px;
+  color: #222222;
+  letter-spacing: -1px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+body .container .button {
+  margin-left: 40px;
+  width: 120px;
+  cursor: pointer;
+}
+
+body .container .button .button1 {
+  background-color: #222222;
+  border-radius: 10px;
+  padding: 0px 10px;
+  padding-right: 10px;
+}
+
+body .container .button .button1 h6 {
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+body .pic .text1 {
+  margin-top: 50px;
+  margin-left: 40px;
+}
+
+body .pic .text1 p {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: #222222;
+}
+
+body .pic .picture1 {
+  display: flex;
+}
+
+body .pic .picture1 .Hanoi {
+  display: flex;
+}
+
+body .pic .picture1 .Hanoi .imgHanoi {
+  background-image: url("https://a0.muscache.com/im/pictures/be4d3ba5-08d7-4afe-95a7-f2da6453886a.jpg?im_q=medq&im_w=720");
+  border-radius: 5px;
+  background-size: cover;
+  height: 50px;
+  width: 50px;
+  margin-left: 80px;
+}
+
+body .pic .picture1 .Hanoi .text2 p {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 6px;
+  margin-left: 10px;
+}
+
+body .pic .picture1 .Hanoi .imgHaiPhong {
+  background-image: url("https://a0.muscache.com/im/pictures/52e8083e-2de2-446d-a860-534eab250541.jpg?im_q=medq&im_w=720");
+  border-radius: 5px;
+  background-size: cover;
+  height: 50px;
+  width: 50px;
+  margin-left: 150px;
+}
+
+body .pic .picture1 .Hanoi .imgNinhBinh {
+  background-image: url("https://a0.muscache.com/im/pictures/7253e011-7c22-48fd-b75d-d0da35372397.jpg?im_q=medq&im_w=720");
+  border-radius: 5px;
+  background-size: cover;
+  height: 50px;
+  width: 50px;
+  margin-left: 150px;
+}
+
+body .pic .picture1 .Hanoi .imgDongHoi {
+  background-image: url("https://a0.muscache.com/im/pictures/20e74de0-0eb8-4fca-afb8-b111875acdf5.jpg?im_q=medq&im_w=720");
+  border-radius: 5px;
+  background-size: cover;
+  height: 50px;
+  width: 50px;
+  margin-left: 150px;
+}
+
+body .pic .picture1 .picture2 {
+  display: flex;
+}
+
+body .pic .picture1 .picture2 .anh1 {
+  background-image: url("https://a0.muscache.com/im/pictures/2f13349d-879d-43c6-83e3-8e5679291d53.jpg?im_w=720");
+  border-radius: 5px;
+  background-size: cover;
+  height: 300px;
+  width: 300px;
+  margin-left: 40px;
+}
+
+body .pic .picture1 .picture2 .anh4 {
+  background-image: url("https://a0.muscache.com/im/pictures/10a638e1-6aff-4313-8033-1275cec83987.jpg?im_w=720");
+  border-radius: 5px;
+  background-size: cover;
+  height: 300px;
+  width: 300px;
+  margin-left: 40px;
+}
+
+body .pic .picture1 .picture2 .anh2 {
+  background-image: url("https://a0.muscache.com/im/pictures/36f53e61-db8d-403c-9122-5b761c0e4264.jpg?im_w=720");
+  border-radius: 5px;
+  background-size: cover;
+  height: 300px;
+  width: 300px;
+  margin-left: 40px;
+}
+
+body .pic .picture1 .picture2 .anh3 {
+  background-image: url("https://a0.muscache.com/im/pictures/7d82ca14-56e5-4465-8218-dcfa7d69b6ac.jpg?im_w=720");
+  border-radius: 5px;
+  background-size: cover;
+  height: 300px;
+  width: 300px;
+  margin-left: 40px;
+}
+
+body .pic .picture3 {
+  display: flex;
+}
+
+body .pic .picture3 .textandbutton {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+  vertical-align: text-bottom;
+}
+
+body .pic .picture3 .text p {
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: normal;
+}
+
+body .pic .picture3 .text h1 {
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: normal;
+}
+
+body .pic .picture3 .button {
+  border-radius: 6px;
+  background-color: black;
+  text-align: center;
+  cursor: pointer;
+}
+
+body .pic .picture3 .button h2 {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: normal;
+}
+
+body .pic .picture3 .pic4 {
+  background-image: url("https://a0.muscache.com/im/pictures/5b4dc94a-0b4c-4c27-b50f-9c5a5b93c775.jpg?im_w=720");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 40px;
+  width: 50%;
+  height: 30vh;
+  margin-top: 40px;
+  border-radius: 10px;
+}
