@@ -339,3 +339,130 @@ body .pic .picture3 .pic4 {
   margin-top: 40px;
   border-radius: 10px;
 }
+
+body .pic .text3 {
+  margin-left: 40px;
+}
+
+body .pic .text3 h1 {
+  font-size: 32px;
+  color: #222222;
+  font-weight: 700;
+  margin-top: 50px;
+}
+
+body .pic .text3 h2 {
+  color: #222222;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+body .pic .picture3 .PictureandText {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+  width: 300px;
+}
+
+body .pic .picture3 .PictureandText .Picture1 {
+  background-image: url("https://a0.muscache.com/im/pictures/247a1ea3-946d-4eb8-a6ab-e8b9a66846f4.jpg?im_w=720");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+body .pic .picture3 .PictureandText .Text h1 {
+  color: #222222;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 600;
+}
+
+body .pic .picture3 .PictureandText .Text h2 {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  margin-top: 4px;
+  word-wrap: normal;
+}
+
+body .pic .picture3 .PictureandText .Picture2 {
+  background-image: url("https://a0.muscache.com/im/pictures/a6b08861-feb8-4a01-a76d-b33d2867b441.jpg?im_w=720");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+body .pic .picture3 .PictureandText .Text h1 {
+  color: #222222;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 600;
+}
+
+body .pic .picture3 .PictureandText .Text h2 {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  margin-top: 4px;
+}
+
+body .pic .picture3 .PictureandText .Picture3 {
+  background-image: url("https://a0.muscache.com/im/pictures/ad109d56-2421-40cd-98e6-e114160dc85b.jpg?im_w=720");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+body .pic .picture3 .PictureandText .Text h1 {
+  color: #222222;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 600;
+}
+
+body .pic .picture3 .PictureandText .Text h2 {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  margin-top: 4px;
+}
+
+body .end {
+  width: 100%;
+  background-color: #DDDDDD;
+}
+
+body .end .all {
+  display: flex;
+  cursor: pointer;
+}
+
+body .end .all .column {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+  margin-right: 80px;
+}
+
+body .end .all .column .details h1 {
+  color: #222222;
+  font-size: 12px;
+  margin-bottom: 0px;
+  line-height: 1.43;
+}
+
+body .end .all .column .details h2 {
+  color: #222222;
+  font-size: 14px;
+  line-height: 18px;
+  font-family: inherit;
+  font-weight: inherit;
+}
