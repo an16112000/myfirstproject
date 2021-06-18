@@ -1,0 +1,272 @@
+body {
+  font-size: 10px;
+}
+
+body .head {
+  margin-top: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+}
+
+body .head .left {
+  margin-left: 360px;
+  width: 110px;
+  height: 30px;
+  background-image: url("abc.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+
+body .head .right1 {
+  background-color: #806c42;
+  padding-top: -17px;
+  margin-left: 600px;
+  height: 30px;
+  padding: 0px 8px;
+  cursor: pointer;
+}
+
+body .head .right1 h1 {
+  font-size: 15px;
+  color: #ffffff;
+}
+
+body .head .right2 {
+  background-image: url("Vector.png");
+  margin-left: 20px;
+  width: 35px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+body .container {
+  background-image: url("home-bg.png");
+  background-size: cover;
+  width: 100%;
+  padding-top: 200px;
+  padding-bottom: 400px;
+  margin: auto;
+}
+
+body .container .text h2 {
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+}
+
+body .container .form {
+  display: flex;
+}
+
+body .container .form .options {
+  text-align: center;
+  display: flex;
+  margin: auto;
+  border: 2px solid rgba(128, 108, 66, 0.1);
+  padding: 0px 0px;
+}
+
+body .container .form .options select {
+  text-align: left;
+  width: 100px;
+}
+
+body .container .form .options .day {
+  font-size: 10px;
+  width: 0px;
+  padding: 0px 0px;
+}
+
+body .container .form .options .month {
+  font-size: 10px;
+}
+
+body .container .form .options input {
+  text-align: left;
+  margin-left: -5px;
+  width: 100px;
+}
+
+body .container .form .options .search1 {
+  background-color: #806c42;
+  cursor: pointer;
+  width: 100px;
+  padding: 0px 0px;
+}
+
+body .container .form .options .search1 h3 {
+  color: #ffffff;
+  font-size: 10px;
+}
+
+body .container2 {
+  font-size: 25px;
+  height: 508px;
+  width: 1200px;
+  align-items: center;
+  padding-top: 70px;
+  padding-left: 100px;
+}
+
+.pictureandtext {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pictureandtext h4 {
+  height: 0px;
+  font-family: Josefin Sans;
+  font-weight: 300;
+  font-size: 40px;
+  color: #806c42;
+}
+
+.pictureandtext .picture {
+  display: flex;
+  align-items: center;
+}
+
+.pictureandtext .card {
+  display: flex;
+  width: 200px;
+  color: #ffffff;
+  align-items: center;
+  font-size: 40px;
+  text-align: center;
+  justify-content: center;
+}
+
+.pictureandtext #hanoi {
+  background-image: url("ho guom.png");
+  height: 350px;
+  background-size: cover;
+}
+
+.pictureandtext #danang {
+  background-image: url("cau vang.png");
+  height: 400px;
+  background-size: cover;
+}
+
+.pictureandtext #saigon {
+  background-image: url("toa nha o hcm.png");
+  height: 450px;
+  background-size: cover;
+}
+
+.pictureandtext #phuquoc {
+  background-image: url("bien phu quoc.png");
+  height: 500px;
+  background-size: cover;
+}
+
+.container3 {
+  font-size: 25px;
+  background-color: rgba(128, 108, 66, 0.05);
+  text-align: center;
+  margin: auto;
+}
+
+.container3 .head3 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.container3 .head3 h2 {
+  font-size: 25px;
+  font-family: Josefin Sans;
+  font-weight: 350px;
+  line-height: 75px;
+  color: #806c42;
+}
+
+.container3 .picture4 {
+  display: flex;
+}
+
+.container3 .picture4 .picture3 {
+  display: flex;
+  text-align: center;
+  margin: auto;
+}
+
+.picture32 {
+  display: flex;
+  flex-direction: column;
+}
+
+.picture321 {
+  display: flex;
+  margin-top: 32px;
+}
+
+.container3 .picture3 .nhabietthu {
+  height: 457px;
+  width: 202px;
+  background-image: url("nha biet thu.png");
+  background-size: cover;
+  margin-right: 20px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 25px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.phongrieng {
+  background-image: url("phong rieng.png");
+  background-size: cover;
+  height: 175px;
+  width: 370px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 25px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.nhachungcu {
+  background-image: url("nha chung cu.png");
+  background-size: cover;
+  height: 250px;
+  width: 163.5px;
+  margin-right: 40px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 25px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.khunghiduong {
+  background-image: url("khu nghi duong.png");
+  background-size: cover;
+  height: 250px;
+  width: 163.5px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 25px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.end {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #806c42;
+  color: #ffffff;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 30px;
+}

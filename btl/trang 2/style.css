@@ -1,0 +1,287 @@
+body {
+  font-size: 10px;
+}
+
+body .head {
+  margin-top: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+}
+
+body .head .left {
+  margin-left: 360px;
+  width: 110px;
+  height: 30px;
+  background-image: url("abc.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+
+body .head .right1 {
+  background-color: #806c42;
+  padding-top: -17px;
+  margin-left: 600px;
+  height: 30px;
+  padding: 0px 8px;
+  cursor: pointer;
+}
+
+body .head .right1 h1 {
+  font-size: 15px;
+  color: #ffffff;
+}
+
+body .head .right2 {
+  background-image: url("Vector.png");
+  margin-left: 20px;
+  width: 35px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.container {
+  border-top: 3px solid rgba(128, 108, 66, 0.1);
+  box-shadow: black;
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+}
+
+.content1 {
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+}
+
+.content1 h1 {
+  font-size: 15px;
+  font-weight: 300;
+  color: #806c42;
+}
+
+.width {
+  width: 195px;
+  height: 25px;
+}
+
+.line {
+  background-image: url("line 1.png");
+  width: 195px;
+  background-size: cover;
+  height: 1px;
+  margin-top: 50px;
+  display: flex;
+}
+
+.elip {
+  background-image: url("Ellipse 1.png");
+  width: 10px;
+  height: 10px;
+  background-size: cover;
+  position: absolute;
+  margin-top: -5px;
+  margin-left: 40px;
+}
+
+.price {
+  display: flex;
+}
+
+.price1 {
+  border: 1px solid #806c42;
+  text-align: left;
+  margin-top: 30px;
+  font-size: 12px;
+  font-weight: 200;
+  padding: 5px 10px;
+  width: 70px;
+  margin-right: 12px;
+  margin-bottom: 30px;
+}
+
+.option {
+  display: flex;
+  width: 195px;
+  margin-top: 25px;
+}
+
+.option1 {
+  font-size: 12.5px;
+  color: #806c42;
+  font-weight: 200;
+  margin-right: auto;
+}
+
+.option .amount {
+  display: flex;
+  margin-left: auto;
+  color: #806c42;
+  font-size: 12.5px;
+  font-weight: 350;
+}
+
+.minus {
+  background-image: url("minus.png");
+  width: 15px;
+  height: 15px;
+  background-size: cover;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.plus {
+  background-image: url("plus.png");
+  width: 15px;
+  height: 15px;
+  background-size: cover;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.option2 {
+  width: 195px;
+  height: 30px;
+  border: 2px solid #806c42;
+  color: #806c42;
+  font-size: 12.5px;
+  font-weight: 300;
+  align-items: center;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.option3 {
+  width: 195px;
+  height: 30px;
+  border: 2px solid #806c42;
+  color: #806c42;
+  font-size: 12.5px;
+  font-weight: 300;
+  align-items: center;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.content2 {
+  margin-left: 0px;
+}
+
+.content2 .head {
+  color: #000000;
+  font-size: 12.5px;
+  font-weight: 200;
+}
+
+.content2 .head1 {
+  color: #806c42;
+  font-size: 20px;
+}
+
+.content2 .head2 {
+  color: #806c42;
+  font-size: 20px;
+  font-weight: 350;
+}
+
+.content2 .line2 {
+  background-image: url("line 2.png");
+  width: 25px;
+  height: 1px;
+  background-size: cover;
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+
+.content2 .border {
+  width: 355px;
+  height: 119px;
+  border: 1px solid #806c42;
+  display: flex;
+  padding-left: 5px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.content2 .borderjuni {
+  background-image: url("bedroom.png");
+  display: flex;
+  align-items: center;
+  width: 150px;
+  height: 100px;
+  background-size: cover;
+}
+
+.content2 .borderjuni1 {
+  margin-bottom: auto;
+}
+
+.content2 .borderjuni1 h1 {
+  color: #806c42;
+  font-size: 15px;
+}
+
+.content2 .borderjuni1 h2 {
+  color: #000000;
+  font-size: 8px;
+  font-weight: 150;
+}
+
+.content2 .borderjuni3 {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.content2 .borderjuni3 .left {
+  background-image: url("star.png");
+  width: 10px;
+  height: 9.5px;
+  background-size: cover;
+  margin-right: 10px;
+}
+
+.content2 .borderjuni3 .mid {
+  color: #806c42;
+  font-size: 8px;
+}
+
+.content2 .borderjuni3 .mid h2 {
+  color: #806c42;
+  font-size: 8px;
+}
+
+.content2 .refresh {
+  background-image: url("refresh.png");
+  height: 20px;
+  width: 20px;
+  background-size: cover;
+  margin: auto;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.end {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #806c42;
+  color: #ffffff;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 30px;
+}

@@ -1,0 +1,399 @@
+body {
+  font-size: 10px;
+}
+
+body .head {
+  margin-top: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+body .head .left {
+  margin-left: 360px;
+  width: 110px;
+  height: 30px;
+  background-image: url("abc.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+
+body .head .right1 {
+  background-color: #806c42;
+  padding-top: -17px;
+  margin-left: 600px;
+  height: 30px;
+  padding: 0px 8px;
+  cursor: pointer;
+}
+
+body .head .right1 h1 {
+  font-size: 15px;
+  color: #ffffff;
+}
+
+body .head .right2 {
+  background-image: url("Vector.png");
+  margin-left: 20px;
+  width: 35px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.container {
+  width: 100%;
+  margin-left: 380px;
+}
+
+.container .head1 {
+  color: #806c42;
+  font-size: 30px;
+  font-weight: 200;
+  margin-top: 40px;
+}
+
+.container .head2 {
+  display: flex;
+  align-items: center;
+}
+
+.container .head2 h1 {
+  color: #806c42;
+  font-size: 12.5px;
+  font-weight: 200;
+}
+
+.container .head2 h2 {
+  color: #000000;
+  font-size: 8px;
+  font-weight: 200;
+  margin-left: 6px;
+  margin-right: 15px;
+}
+
+.container .head2 .star {
+  background-image: url("star.png");
+  height: 12.5px;
+  width: 12.5px;
+  background-size: cover;
+  margin-right: 6px;
+}
+
+.container .head2 .localtion {
+  background-image: url("localtion.png");
+  width: 12.5px;
+  height: 12.5px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.container .picture {
+  display: flex;
+}
+
+.container .picture .pic1 {
+  background-image: url("bedroom.png");
+  height: 200px;
+  width: 300px;
+  background-size: cover;
+  margin-right: 15px;
+}
+
+.container .picture .pic23 {
+  display: flex;
+  flex-direction: column;
+}
+
+.container .picture .pic23 .pic2 {
+  background-image: url("bedroom.png");
+  height: 94px;
+  width: 141.5px;
+  background-size: cover;
+  margin-right: 15px;
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.container .picture .menu {
+  background-color: #ffffff;
+  padding: 1px 1px;
+  border: 2px solid #806c42;
+  width: 105.5px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.container .picture .menu .icon {
+  background-image: url("menu.png");
+  height: 6.665px;
+  width: 6.665px;
+  background-size: cover;
+  margin-right: 5px;
+}
+
+.container .b {
+  display: flex;
+}
+
+.container .b .body .head4 {
+  display: flex;
+}
+
+.container .b .body .head4 .head3 h1 {
+  color: #000000;
+  font-size: 17.5px;
+  font-weight: 300;
+}
+
+.container .b .body .head4 .head3 .head1 {
+  margin-top: -5px;
+}
+
+.container .b .body .head4 .head3 .head1 .head12 {
+  display: flex;
+  align-items: center;
+  color: #000000;
+  font-size: 11px;
+  font-weight: 150;
+}
+
+.container .b .body .head4 .head3 .head1 .head12 .human {
+  background-image: url("human.png");
+  height: 8px;
+  width: 8px;
+  background-size: cover;
+  margin-right: 20px;
+}
+
+.container .b .body .head4 .head3 .head1 .head12 .bed {
+  background-image: url("bed.png");
+  height: 8px;
+  width: 8px;
+  background-size: cover;
+  margin-right: 20px;
+}
+
+.container .b .body .head4 .circle1 {
+  display: flex;
+  align-items: center;
+}
+
+.container .b .body .head4 .circle1 .circle {
+  background-color: #c4c4c4;
+  padding: 2px 2px;
+  height: 50px;
+  width: 50px;
+  color: #000000;
+  font-size: 10px;
+  font-weight: 150;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  margin-left: 120px;
+  justify-content: center;
+}
+
+.container .b .line1 {
+  height: 0px;
+  width: 360px;
+  border: 1px solid rgba(128, 108, 66, 0.5);
+  margin-top: 30px;
+  background-color: gray;
+}
+
+.container .b h3 {
+  font-size: 11px;
+  font-weight: 150;
+  line-height: 16.5px;
+  color: #000000;
+}
+
+.container .b h4 {
+  font-size: 15px;
+  color: #000000;
+  font-weight: 300;
+}
+
+.container .b .flex {
+  display: flex;
+  color: #000000;
+  font-size: 10px;
+  font-weight: 200;
+}
+
+.container .b .flex .wifi {
+  display: flex;
+}
+
+.container .b .flex .wifi .iconwifi {
+  background-image: url("wifi.png");
+  width: 13.75px;
+  height: 9.72px;
+  background-size: cover;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.container .b .flex .tivi {
+  display: flex;
+}
+
+.container .b .flex .tivi .icontivi {
+  background-image: url("tivi.png");
+  width: 13.75px;
+  height: 9.72px;
+  background-size: cover;
+  margin-left: 100px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.container .b .flex .dieuhoahaichieu {
+  display: flex;
+}
+
+.container .b .flex .dieuhoahaichieu .icondieuhoahaichieu {
+  background-image: url("dieu hoa hai chieu.png");
+  width: 13.75px;
+  height: 9.72px;
+  background-size: cover;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.container .b .flex .tulanh {
+  display: flex;
+}
+
+.container .b .flex .tulanh .icontulanh {
+  background-image: url("tu lanh.png");
+  width: 13.75px;
+  height: 9.72px;
+  background-size: cover;
+  margin-left: 100px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.container .b .flex .bontam {
+  display: flex;
+}
+
+.container .b .flex .bontam .iconbontam {
+  background-image: url("bon tam.png");
+  width: 13.75px;
+  height: 9.72px;
+  background-size: cover;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.container .box {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  padding: 10px;
+  height: 178.5px;
+}
+
+.container .box .price {
+  display: flex;
+  align-items: center;
+}
+
+.container .box .price .star {
+  background-image: url("star.png");
+  height: 12.5px;
+  width: 12.5px;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+}
+
+.container .box .price h1 {
+  font-size: 12.5px;
+  color: #806c42;
+  margin-left: 5px;
+}
+
+.container .box .price h2 {
+  font-size: 8px;
+  font-weight: 200;
+  color: #806c42;
+}
+
+.container .box .option {
+  display: flex;
+}
+
+.container .box .option .option1 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 9px;
+  border: 1px solid #806C42;
+  width: 87.5px;
+  height: 30px;
+}
+
+.container .box input {
+  width: 167px;
+  height: 30px;
+  font-size: 9px;
+  color: #806c42;
+}
+
+.container .box .button {
+  background-color: #806c42;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  font-size: 9px;
+  height: 30px;
+  width: 175px;
+  margin-top: 20px;
+}
+
+.line2 {
+  height: 0px;
+  width: 600;
+  border: 1px solid rgba(128, 108, 66, 0.5);
+  margin-top: 30px;
+  background-color: gray;
+}
+
+.end {
+  display: flex;
+  text-align: bottom;
+  align-items: center;
+  justify-content: center;
+}
+
+.end .star {
+  background-image: url("star.png");
+  width: 16.665px;
+  height: 15.835px;
+  background-size: cover;
+  margin-right: 10px;
+}
+
+.end h1 {
+  color: #806c42;
+  font-size: 15px;
+  font-weight: 200;
+  margin-right: 5px;
+}
+
+.end h2 {
+  color: #806c42;
+  font-size: 10px;
+  font-weight: 200;
+}
